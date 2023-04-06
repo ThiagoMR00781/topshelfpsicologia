@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Top Shelf Psicologia</title>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Thiago Moura"/> <!---->
+		<meta name="description" content="Faça sua consulta de psicologia"/><!--maximo de caracteres é 90-->
+		<meta name="keywords" content="consulta, psicologia, agendamento, saude mental"/><!--maximo de caracteres é 150-->
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body link="#009688" alink="#009688" vlink="#009688">
+		<!--cabeçalho do site/menu-->
+		<header>
+			<img src="img/TopShelfPsicologia 1.png"/>
+		</header>	
+		
+		<!--menu-->
+		<nav>
+			<a class="menu" href="index.html">HOME</a> &nbsp &nbsp
+			<a class="menu" href="index.html">EMPRESA</a> &nbsp &nbsp
+			<a class="menu" href="index.html">SERVIÇOS</a> &nbsp &nbsp
+			<a class="menu" href="index.html">CONTATOS</a> &nbsp &nbsp
+			<a class="menu" href="#pag-agendamento">AGENDAMENTO</a> &nbsp &nbsp 
+		</nav>
+		
+			<hr color="#F0EBEB" id="pag-home" />
+		<section id="pag-agendamentos">	 
+       	 	<h1>Agendamento</h1>
+      		<p>Agenda sua consulta!</p> 
+		</section>
+        <form>
+
+      		<label id="">Nome:</label><br/>
+      		<input type="text" name="nome" placeholder="Nome Completo" autofocus size="80" maxlength="" />
+      			<br/>
+      			<br/> 
+      		<label for="email">E-mail:</label> 
+      			<br/> 
+      		<input type="emial" name="email" placeholder="usuario@gmail.com"  size="80"/> 
+      			<br/>
+      			<br/>
+      		<label for="senha">Senha:</label> 
+      			<br/> 
+      		<input type="password" name="senha" placeholder="somente números" size="80"/> 
+      			<br/>
+      			<br/>
+      		<label for="cel">Celular:</label> 
+      			<br/> 
+      		<input type="tel" name="cel" placeholder="(XX) XXXXX-XXXX"  size="80" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$"/> 
+				<br/> 
+				<br/>
+			<label for="data">Data:</label> <br/>
+			<input type="date" name="data"/> <br/>
+
+			<label for="hora">Hora:</label> <br/>
+			<input type="time" name="hora"/> <br/>
+
+		<br/><br/>
+			
+			<fieldset>
+				<legend>Gênero:</legend>
+				<input type="radio" name="genero" value="masc"/> Masculino <br/>
+				<input type="radio" name="genero" value="fem"/> Feminino
+			</fieldset>
+		<br/><br/>
+			
+			<label for="mensagem">Mensagem:</label><br/>
+				<textarea name="mensagem" cols="80" rows="5">				
+				</textarea>
+
+			<br/><br/>	
+      		<input type="submit" name="bt-email" value="ENVIAR">
+      		<input type="reset" name="bt-limpar" value="CANCELAR">
+        
+        </form>
+
+	 
+	  <!--rodapé-->
+		<footer>
+			<p >Desenvolvido por <a href="http://instagram.com/Thiago_bsbr" target="_blank"> Thiago Moura</a> - 2023</p>
+		</footer>
+    </body>
+      
+</html>
+      
